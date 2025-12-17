@@ -133,7 +133,7 @@ This section presents **three conclusions** using **at least three different sta
 - **Result:** Statistically significant moderate positive correlation (r=0.411)
 - **Visualization:** Scatter plots and box plots
 
-#### Statistical Method 2: Hypothesis Testing (Two-Sample T-Test)
+#### Statistical Method 2: Hypothesis Testing (Welch's Two-Sample t-Test)
 - **Research Question:** Do product prices differ significantly between holiday seasons (Christmas) and non-holiday periods?
 - **Hypothesis:** H₀: Mean prices equal vs H₁: Mean prices differ
 - **Result:** Analysis of seasonal price differences
@@ -272,7 +272,11 @@ The notebook includes comprehensive visualizations for:
 
 ## Author Information
 
-**Author:** Aditi Katale  
+**Authors:**
+- **Tanaya Harley** (UID: 122151284)
+- **Dhanraj Nandurkar** (UID: 122094451)
+- **Aditi Katale** (UID: 122175730)
+
 **Course:** DATA 602 - Principles of Data Science  
 **Institution:** UMCP  
 **Date:** 16 December 2025

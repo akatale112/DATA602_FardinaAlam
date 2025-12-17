@@ -334,7 +334,7 @@ This section presents **three conclusions** using **at least three different sta
 
 ## Statistical Methods Used:
 1. **Correlation Analysis** (Pearson correlation) - Tests relationship between price and freight value
-2. **Hypothesis Testing** (Two-sample t-test) - Tests if prices differ significantly between seasons
+2. **Hypothesis Testing** (Welch's Two-Sample t-Test) - Tests if prices differ significantly between seasons
 3. **Chi-square Test** - Tests if product categories are evenly distributed or over-represented
 
 ## Summary Statistics Overview
@@ -442,7 +442,7 @@ plt.show()
 
 print("\n✓ Correlation analysis completed with visualization!")
 
-"""## Statistical Method 2: Hypothesis Testing (Two-Sample T-Test)
+"""## Statistical Method 2: Hypothesis Testing (Welch's Two-Sample t-Test)
 
 ### Research Question: Do product prices differ significantly between holiday seasons (Christmas) and non-holiday periods?
 
@@ -452,7 +452,7 @@ print("\n✓ Correlation analysis completed with visualization!")
 
 """
 
-# Method 2: Hypothesis Testing - Two-sample t-test
+# Method 2: Hypothesis Testing - Welch's Two-Sample t-Test (unequal variances)
 # Extract seasonal features
 df_sample['month'] = df_sample['order_purchase_timestamp'].dt.month
 df_sample['is_christmas'] = ((df_sample['month'] == 12) &
@@ -473,7 +473,7 @@ print(f"\nGroup 2 (Non-Christmas): n = {len(non_christmas_prices):,}")
 print(f"  Mean price: {non_christmas_prices.mean():.2f} BRL")
 print(f"  Std deviation: {non_christmas_prices.std():.2f} BRL")
 
-# Perform two-sample t-test
+# Perform Welch's two-sample t-test (equal_var=False uses Welch's method for unequal variances)
 t_statistic, p_value = ttest_ind(christmas_prices, non_christmas_prices, equal_var=False)
 
 print(f"\nT-test Results:")

@@ -272,7 +272,11 @@ The notebook includes comprehensive visualizations for:
 
 ## Author Information
 
-**Author:** Aditi Katale  
+**Authors:**
+- **Tanaya Harley** (UID: 122151284)
+- **Dhanraj Nandurkar** (UID: 122094451)
+- **Aditi Katale** (UID: 122175730)
+
 **Course:** DATA 602 - Principles of Data Science  
 **Institution:** UMCP  
 **Date:** 16 December 2025
