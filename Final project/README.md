@@ -274,8 +274,8 @@ The notebook includes comprehensive visualizations for:
 
 **Author:** Aditi Katale  
 **Course:** DATA 602 - Principles of Data Science  
-**Institution:** [Your Institution Name]  
-**Date:** 2024
+**Institution:** UMCP  
+**Date:** 16 December 2025
 
 ---
 
@@ -293,14 +293,6 @@ This project is for educational purposes as part of the DATA 602 Principles of D
 
 ---
 
-## Contact
-
-For questions or feedback about this project, please contact:
-- **Email:** [Your Email]
-- **GitHub:** [Your GitHub Profile]
-
----
-
 ## Citation
 
 If you use this project or dataset, please cite:
@@ -312,5 +304,5 @@ Kaggle. https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 
 ---
 
-**Project Status:** ✅ Complete
+
 
